@@ -23,7 +23,7 @@ body {
 }
 
 .cabecalho-imagem {
-    height: 100px;
+    height: 60px;
 }
 
 .cabecalho-menu {
@@ -156,4 +156,20 @@ body {
     height: 75px;
     display: block;
     margin: 0 auto;
+}
+
+/* ESTILIZAÇÃO DO BARRA DE ROLAGEM */
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+  
+body::-webkit-scrollbar-track {
+    background: #8F695C;
+  }
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #093F27;
+    border-radius: 20px;
+    border: 3px solid #8F695C;
 }
